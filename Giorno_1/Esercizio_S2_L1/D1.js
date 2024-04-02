@@ -28,7 +28,7 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var myName = "Andrea";
+let myName = "Andrea";
 console.log(myName);
 
 
@@ -59,7 +59,7 @@ console.log(x);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const myName = "Ciraldo";
+myName = "Ciraldo";
 console.log(myName);
 
 /* ESERCIZIO 6
@@ -84,5 +84,5 @@ var name2 = "John";
 console.log(name1 != name2);
 
 var name2lowercase = name2.toLowerCase();
-console.log(name1 == name2lowecase);
+console.log(name1 == name2lowercase);
 
