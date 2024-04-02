@@ -61,6 +61,9 @@ console.log(x);
 
 myName = "Ciraldo";
 console.log(myName);
+const PI = 3.14;
+//PI = 3.2;
+console.log(PI);
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
