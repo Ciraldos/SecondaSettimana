@@ -32,6 +32,7 @@ var myName = "Andrea";
 console.log(myName);
 
 
+
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
@@ -80,7 +81,7 @@ console.log(sottrazione);
 
 var name1 = "john";
 var name2 = "John";
-console.log(name1 != John);
+console.log(name1 != name2);
 
 var name2lowecase = name2.toLowerCase();
 console.log(name1 == name2lowecase);
