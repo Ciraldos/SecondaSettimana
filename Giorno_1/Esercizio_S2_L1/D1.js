@@ -83,6 +83,6 @@ var name1 = "john";
 var name2 = "John";
 console.log(name1 != name2);
 
-var name2lowecase = name2.toLowerCase();
+var name2lowercase = name2.toLowerCase();
 console.log(name1 == name2lowecase);
 
