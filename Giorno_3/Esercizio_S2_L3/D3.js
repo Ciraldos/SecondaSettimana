@@ -114,8 +114,8 @@ console.log(charactersNames);
   Come risultato dovresti ottenere qualcosa di simile: ["Luke Skywalker", "C-3PO", "R2-D2", etc..]
 */
 
-let i=0;
-for(i=0;i<starWarsCharacters.length;i++){
+
+for(let i=0;i<starWarsCharacters.length;i++){
   charactersNames.push(starWarsCharacters[i].name);
 }
 console.log(charactersNames);
