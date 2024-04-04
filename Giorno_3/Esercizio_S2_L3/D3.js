@@ -227,7 +227,8 @@ let y=0;
 for(i=0;i<charactersNames.length;i++){
     for(y=0;y<femaleCharacters.length;y++){
       if(charactersNames[i]===femaleCharacters[y]){
-         delete charactersNames[i];
+         charactersNames.splice(i,1);
+        
     }
   }
 }
