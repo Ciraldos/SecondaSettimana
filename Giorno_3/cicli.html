@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cicli o iterazioni</title>
+</head>
+<body>
+    <h1>Cicli o iterazioni o loop</h1>
+    <p>Sono strutture molto comuni nel linguaggio, ci permettono di eseguire una serie di istruzioni <b>finchè</b> una condizione è valida.
+    Perchè ci sia un ciclo la condizione deve mutare e deve essere ciclicamente verificata<br>
+    quando la condizione non è più vera il codice associato non viene più eseguito (si esce dal ciclo)
+    Javascript prevede due macro istruzioni per fare delle <b>iterazioni</b>: <code>while</code> e <code>for</code></p>
+
+    <h2>While</h2>
+    <p><b>Schema sintattico di while</b></p>
+    <script>
+        while(condizione){
+        //condizioni
+        }
+        //finchè la condizione sarà vera verranno eseguite le istruzioni del blocco di codice
+        //REQUISITO FONDAMENTALE: Le istruzioni presenti nel blocco devono modificare la condizione, altrimenti ciclo infinito
+    </script>
+
+    <h2>do while</h2>
+    <p>Rispetto a while che abbiamo visto ha una variante: la condizione viene valutata dopo aver eseguito le istruzioni<br>
+    esegue sempre una volta le istruzioni e poi valuto la condizione</p>
+    <p><b>Schema sintattico di do while</b></p>
+    <script>
+        do{
+            //blocco istruzioni
+        }
+        while(condizione);
+    </script>
+</body>
+</html>
