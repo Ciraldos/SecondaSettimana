@@ -32,5 +32,23 @@
         }
         while(condizione);
     </script>
+
+    <h2>Ciclo For</h2>
+    <p>Serve (come <code>while</code>) a eseguire un blocco di istruzioni un determinato numero di volte<br>
+    numero di volte che è determinato da quella che abbiamo chiamato <b>condizione</b></p>
+    <p><b>Schema sintattico di for</b></p>
+    <script>
+        for(inizializzazione; condizione; modifica){
+            //istruzioni
+        }
+        // inizializzazione è l'istruzione che javascript esegue prima di avviare il ciclo (o loop)
+        // condizione è espressione booleana (true | false) che viene valutata prima di eseguire il ciclo
+        //                                                    se è true il blocco di codice viene eseguito
+        //                                                    se è false il blocco di codice non viene eseguito
+        //modifica è l'istruzione che viene eseguita al termine di ciascun ciclo
+        // il ciclo ricomincia dalla valutazione della condizione
+        // a differenza di while abbiamo spostato la modifica fuori dal blocco delle istruzioni
+        // come in un while dobbiamo essere SICURI che ci sia la modifica altrimenti non esco mai dal ciclo
+    </script>
 </body>
 </html>
