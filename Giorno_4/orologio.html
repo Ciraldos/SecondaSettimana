@@ -21,7 +21,7 @@
             var MM = orologio.getMinutes();
             var SS = orologio.getSeconds();
             parseInt(MM) < 10 ? MM = "0" + MM : null; //se la parserizzazzione dell'intero utilizzato per i minuti è minore di 10
-                                                   //allora alla variabile associata ai minuti aggiungi 0 + il valore della variabile 
+                                                      //allora alla variabile associata ai minuti aggiungi 0 + il valore della variabile 
             parseInt(SS) < 10 ? SS = "0" + SS : null;
             document.formOrologio.textOrologio.value = HH + ":" + MM + ":" + SS;
             window.setTimeout("Clock()", 1000);
