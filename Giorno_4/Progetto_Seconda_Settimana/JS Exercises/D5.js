@@ -135,7 +135,6 @@ while (i < numericArray.length && numericArray[i] !== 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
-const alphabet = 'abcdefghijklmnopqrstuvwxyz';
 
 const positionsArray = charactersArray.map(char => {
   switch (char) {
